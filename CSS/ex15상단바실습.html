@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 상단바 실습을 해보자!
+        1. container의 height는 100px
+        2. flexbox를 이용해서 상단바 구현  */
+        div{
+            /* border: 1px solid black; */
+        }
+        .container{
+            background-color: whitesmoke;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .box1{ 
+            width: 200px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .box2{ 
+            width: 200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        .box3{ 
+            width: 180px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 20px;
+
+        }
+        *{
+            text-decoration: none;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <h1>AIS</h1>
+        </div>
+        <div class="box2">
+            <a href="#"><b>메뉴</b></a>
+            <a href="#"><b>BEST</b></a>
+            <a href="#"><b>뉴스</b></a>
+        </div>
+        <div class="box3">
+            <a href="#"><b>로그인</b></a>
+            <a href="#"><b>회원가입</b></a>
+        </div>
+        
+    </div>
+</body>
+</html>
